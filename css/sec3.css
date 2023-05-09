@@ -1,0 +1,78 @@
+.sec3{
+    width: 100%;
+    background-color: #E5E5E3;
+    height: 500px;
+}
+.para{
+    text-align: center;
+    font-size: 15px;
+    font-weight: lighter;
+    color: black;
+    position: relative;
+    top: 330px;
+    display: flex;
+    justify-content: center;
+    word-spacing: 2px;
+}
+.para a{
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    padding-bottom: 2px;
+}
+.btn{
+    position: relative;
+    top: 360px;
+    text-align: center;
+}
+.btna{
+    text-decoration: none;
+    font-size: 24px;
+    background-color: #FF642B;
+    color: white;
+    padding: 12px 25px;
+}
+.btna:hover{
+    opacity: 0.5;
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  
+    .para{
+      position: relative;
+      top: 600px;
+    }
+    .btn{
+        position: relative;
+        top: 660px;
+    }
+    .sec3{
+        height: 800px;
+    }
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+  
+    .para{
+      position: relative;
+      top: 1750px;
+    }
+    .btn{
+        position: relative;
+        top: 1800px;
+    }
+    .sec3{
+        height: 2100px;
+    }
+}
+@media only screen and (min-device-width: 360px) and (max-device-width: 900px) {
+    .para{
+        position: relative;
+        top: 1750px;
+      }
+      .btn{
+          position: relative;
+          top: 1800px;
+      }
+      .sec3{
+          height: 2100px;
+      }
+  }

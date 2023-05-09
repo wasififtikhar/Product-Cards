@@ -1,0 +1,246 @@
+.offcanvas{
+    width: 22vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,.5);
+    position: absolute;
+    transform: translate(-420px, 0px);
+    transition: transform 0.7s linear;
+    /* z-index: 1; */
+}
+.offcanvas_show{
+    width: 22vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,.5);
+    position: absolute;
+    transform: translate(0px, 0px);
+    transition: transform 0.7s linear;
+    z-index: 2;
+}
+
+
+/* close button */
+.but{
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 30px;
+    color: white;
+    outline: none;
+    border: none;
+    position: fixed;
+    left: 270px;
+    top: 15px;
+    font-family: Montserrat, sans-serif;
+}
+.but:hover{
+    color: orangered;
+}
+
+/* navbar items */
+.nav_links{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    font-family: Montserrat, sans-serif;
+    margin-top: 40px;
+
+}
+
+.nav_links > a{
+    text-decoration: none;
+    list-style-type: none;
+    margin: 20px;
+    color: white;
+    font-size: 30px;
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+  .offcanvas{
+    transition: transform 0.7s linear;
+    width: 70vw;
+    transform: translate(-261px, 0px);
+  }
+    .offcanvas_show{
+        width: 70vw;
+        transform: translate(0px, 0px);
+        transition: transform 0.7s linear;
+    }
+    .but{
+        position: fixed;
+        left: 242px;
+        top: 7px;
+        font-size: 20px;
+    }
+    
+ }
+
+ 
+  @media only screen and (min-device-width: 360px) and (max-device-width: 900px) {
+    .offcanvas{
+        transition: transform 0.7s linear;
+        width: 70vw;
+        transform: translate(-289px, 0px);
+      }
+        .offcanvas_show{
+            width: 70vw;
+            transform: translate(0px, 0px);
+            transition: transform 0.7s linear;
+        }
+        .but{
+            position: fixed;
+            left: 270px;
+            top: 7px;
+            font-size: 20px;
+        }
+   }
+   @media only screen and (min-device-width: 390px) and (max-device-width: 844px){
+    .but {
+        position: fixed;
+        left: 254px;
+        top: 7px;
+        font-size: 20px;
+    }
+}
+   @media only screen and (min-device-width: 360px) and (max-device-width: 740px){
+    .offcanvas{
+        transition: transform 0.7s linear;
+        width: 72vw;
+        transform: translate(-289px, 0px);
+      }
+        .offcanvas_show{
+            width: 72vw;
+            transform: translate(0px, 0px);
+            transition: transform 0.7s linear;
+        }
+    .but {
+        position: fixed;
+        left: 240px;
+        top: 7px;
+        font-size: 20px;
+    }
+}
+   @media only screen and (min-device-width: 412px) and (max-device-width: 915px){
+    .offcanvas{
+        transition: transform 0.7s linear;
+        width: 72vw;
+        transform: translate(-295px, 0px);
+      }
+        .offcanvas_show{
+            width: 72vw;
+            transform: translate(0px, 0px);
+            transition: transform 0.7s linear;
+        }
+    .but {
+        position: fixed;
+        left: 276px;
+        top: 7px;
+        font-size: 20px;
+    }
+}
+ @media only screen and (device-width: 820px) and (device-height: 1180px) {
+    .offcanvas{
+        transition: transform 0.7s linear;
+        width: 36vw;
+        transform: translate(-295px, 0px);
+      }
+        .offcanvas_show{
+            width: 36vw;
+            transform: translate(0px, 0px);
+            transition: transform 0.7s linear;
+        }
+    .but {
+        position: fixed;
+        left: 276px;
+        top: 7px;
+        font-size: 20px;
+    }
+   }
+ @media only screen and (device-width: 768px) and (device-height: 1024px) {
+    .offcanvas{
+        transition: transform 0.7s linear;
+        width: 36vw;
+        transform: translate(-295px, 0px);
+      }
+        .offcanvas_show{
+            width: 36vw;
+            transform: translate(0px, 0px);
+            transition: transform 0.7s linear;
+        }
+    .but {
+        position: fixed;
+        left: 257px;
+        top: 7px;
+        font-size: 20px;
+    }
+   }
+@media only screen and (device-width: 912px) and (device-height: 1368px) {
+    .offcanvas{
+        transition: transform 0.7s linear;
+        width: 36vw;
+        transform: translate(-327px, 0px);
+      }
+        .offcanvas_show{
+            width: 36vw;
+            transform: translate(0px, 0px);
+            transition: transform 0.7s linear;
+        }
+    .but {
+        position: fixed;
+        left: 308px;
+        top: 7px;
+        font-size: 20px;
+    }
+   }
+  @media only screen and (device-width: 540px) and (device-height: 720px) {
+    .offcanvas{
+        transition: transform 0.7s linear;
+        width: 50vw;
+        transform: translate(-327px, 0px);
+      }
+        .offcanvas_show{
+            width: 50vw;
+            transform: translate(0px, 0px);
+            transition: transform 0.7s linear;
+        }
+    .but {
+        position: fixed;
+        left: 250px;
+        top: 7px;
+        font-size: 20px;
+    }
+   }
+ @media only screen and (device-width: 1024px) and (device-height: 600px) {
+    .offcanvas{
+        transition: transform 0.7s linear;
+        width: 27vw;
+        transform: translate(-327px, 0px);
+      }
+        .offcanvas_show{
+            width: 27vw;
+            transform: translate(0px, 0px);
+            transition: transform 0.7s linear;
+        }
+    .but {
+        position: fixed;
+        left: 256px;
+        top: 7px;
+        font-size: 20px;
+    }
+   }
+ @media only screen and (device-width: 1280px) and (device-height: 800px) {
+    
+    .but {
+        position: fixed;
+        left: 260px;
+        top: 7px;
+        font-size: 20px;
+    }
+   }
+@media only screen and (min-device-width: 380px) and (max-device-width: 420px) {
+    
+    .but {
+        position: fixed;
+        left: 260px;
+        top: 7px;
+        font-size: 20px;
+    }
+   }
+   

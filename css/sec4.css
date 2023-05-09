@@ -1,0 +1,113 @@
+.sec4{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    vertical-align: bottom;
+    top: 400px;
+}
+.insec4{
+    width: 88%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    vertical-align: top;
+}
+.cards{
+     width: 100%;
+     height: 100%;
+    vertical-align: top;
+}
+.img01{
+    background-image: url('../images/product images/Capture\ 01.PNG');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img02{
+    background-image: url('../images/product images/Capture\ 02.PNG');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img03{
+    background-image: url('../images/product images/Capture03.PNG');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img04{
+    background-image: url('../images/product images/Capture\ 04.PNG');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img05{
+    background-image: url('../images/product images/Capture\ 05.PNG');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img06{
+    background-image: url('../images/product images/Capture\ 06.PNG');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.carda{
+    height: 360px;
+    width: 30%;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .insec4{
+        position: absolute;
+        top: 70px;
+    }
+    .carda{
+       width: 47%;
+       height: 320px;
+       margin-bottom: 50px;
+      
+   }
+  .cards{
+    justify-content: space-between;
+  }
+   
+  }
+  @media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+    .insec4{
+        position: absolute;
+        top: 40px;
+    }
+    .carda{
+       width: 100%;
+       height: 320px;
+       margin-bottom: 50px;
+       justify-content: center;
+   }
+  .cards{
+      display: flex;
+    justify-content: center;
+    width: 100%;
+  } 
+   
+  } 
+  @media only screen and (min-device-width: 360px) and (max-device-width: 900px) {
+ 
+    .carda{
+        width: 100%;
+        height: 320px;
+        margin-bottom: 50px;
+        justify-content: center;
+    }
+  .cards{
+      display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+ 
+
+}
